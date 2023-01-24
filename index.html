@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Mentors</title>
+</head>
+<body>
+    <main>
+        <h1>CREATE A MENTOR</h1>
+        <p>Insert mentors information</p>
+        <section class="formContainer">
+            <form class="mentorsForm">
+                <div class="mentorsForm__question">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="mentorsForm__question">
+                    <label for="familyNames">Family names:</label>
+                    <input type="text" id="familyNames">
+                </div>
+                <div class="mentorsForm__question">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" >
+                </div>
+                <div class="mentorsForm__question">
+                    <label for="average">Average:</label>
+                    <input type="text" id="average">
+                </div>
+                <div class="mentorsForm__submitBtn">
+                    <button type="submit">Save</button>
+                </div>
+            </form>
+        </section>
+        <scetion class="mentorsContainer">
+            <article class="mentorCard">
+                <img src="" alt="mentorIcon" class="mentorIcon">
+                <h2 class="mentorName">Mentor</h2>
+                <button class="editBtn">E</button>
+                <button class="deleteBtn">D</button>
+                <div class="mentorSubject">
+                    JS
+                </div>
+                <div class="mentorAvg">
+                    <img src="" alt="">
+                    9.7
+                </div>
+            </article>
+        </scetion>
+    </main>
+</body>
+</html>
