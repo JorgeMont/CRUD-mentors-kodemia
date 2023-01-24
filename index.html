@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/Homepage/index.css">
     <title>CRUD Mentors</title>
 </head>
 <body>
-    <main>
-        <h1>CREATE A MENTOR</h1>
-        <p>Insert mentors information</p>
+    <main class="mainContainer">
+        <h1 class="pageTitle">CREATE A MENTOR</h1>
+        <p class="pageDesc">Insert mentors information</p>
         <section class="formContainer">
             <form class="mentorsForm">
                 <div class="mentorsForm__question">
@@ -33,21 +34,29 @@
                 </div>
             </form>
         </section>
-        <scetion class="mentorsContainer">
+        <section class="mentorsContainer">
             <article class="mentorCard">
-                <img src="" alt="mentorIcon" class="mentorIcon">
-                <h2 class="mentorName">Mentor</h2>
-                <button class="editBtn">E</button>
-                <button class="deleteBtn">D</button>
-                <div class="mentorSubject">
-                    JS
+                <div class="row">
+                    <div class="row__left">
+                        <img src="./Assets/Icons/user-regular.svg" alt="mentorIcon" class="mentorIcon">
+                        <h2 class="mentorName">Mentor</h2>
+                    </div>
+                    <div class="row__right">
+                        <img src="Assets/Icons/pen-to-square-solid.svg" class="btn editBtn" />
+                        <img src="Assets/Icons/trash-solid.svg" class="btn deleteBtn" />
+                    </div>
                 </div>
-                <div class="mentorAvg">
-                    <img src="" alt="">
-                    9.7
+                <div class="rowData">
+                    <div class=" chips">
+                        JS
+                    </div>
+                    <div class="mentorAvg chips">
+                        <img src="/Assets/Icons/star-solid.svg" alt="star">
+                        9.7
+                    </div>
                 </div>
             </article>
-        </scetion>
+        </section>
     </main>
 </body>
 </html>

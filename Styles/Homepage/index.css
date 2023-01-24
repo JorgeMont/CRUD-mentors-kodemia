@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  background-color: #A9C9FF;
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+}
+.mainContainer .pageTitle {
+  text-align: center;
+  padding: 1rem 0;
+}
+.mainContainer .pageDesc {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}
+.mainContainer .formContainer {
+  padding: 2rem;
+}
+.mainContainer .formContainer .mentorsForm .mentorsForm__question {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.mainContainer .formContainer .mentorsForm .mentorsForm__question input {
+  width: 20rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  border: 1px gray solid;
+}
+.mainContainer .formContainer .mentorsForm .mentorsForm__submitBtn button {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #3ccd94;
+  color: white;
+}
+.mainContainer .formContainer .mentorsForm .mentorsForm__submitBtn button:hover {
+  cursor: pointer;
+}
+.mainContainer .mentorsContainer {
+  padding: 2rem;
+}
+.mainContainer .mentorsContainer .mentorCard {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  width: 30rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.mainContainer .mentorsContainer .mentorCard .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mainContainer .mentorsContainer .mentorCard .row .row__left {
+  display: flex;
+}
+.mainContainer .mentorsContainer .mentorCard .row .row__left .mentorName {
+  margin-left: 0.5rem;
+}
+.mainContainer .mentorsContainer .mentorCard .row .row__right .btn {
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+.mainContainer .mentorsContainer .mentorCard .row .row__right .btn:hover {
+  cursor: pointer;
+}
+.mainContainer .mentorsContainer .mentorCard .row .row__right .btn img {
+  width: 1rem;
+  height: 1rem;
+}
+.mainContainer .mentorsContainer .mentorCard .rowData {
+  display: flex;
+}
+.mainContainer .mentorsContainer .mentorCard .rowData .chips {
+  background-color: rgba(197, 197, 197, 0.4549019608);
+  padding: 0.2rem 1rem;
+  border-radius: 10px;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+.mainContainer .mentorsContainer .mentorCard .rowData .mentorAvg img {
+  width: 1rem;
+}
+.mainContainer .mentorsContainer .mentorCard .mentorIcon {
+  width: 1.2rem;
+}/*# sourceMappingURL=index.css.map */
