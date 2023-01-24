@@ -45,6 +45,7 @@
 }
 .mainContainer .mentorsContainer .mentorCard {
   padding: 1rem;
+  margin-bottom: 1rem;
   background-color: white;
   border-radius: 5px;
   width: 30rem;
@@ -84,6 +85,7 @@
 }
 .mainContainer .mentorsContainer .mentorCard .rowData .mentorAvg img {
   width: 1rem;
+  margin-right: 0.3rem;
 }
 .mainContainer .mentorsContainer .mentorCard .mentorIcon {
   width: 1.2rem;

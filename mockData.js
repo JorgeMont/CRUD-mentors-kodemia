@@ -1,0 +1,1 @@
+{name: 'Jorge', familyName: 'Monterrosas ramirez', subject: 'JS', avg: 9.7}
