@@ -5,10 +5,10 @@ import postData from "./Helpers/postData.js";
 const apiURL = 'https://kodemiaprueba-default-rtdb.firebaseio.com/.json';
 const mentorsContainer = document.querySelector('.mentorsContainer');
 const mentorsForm = document.querySelector('.mentorsForm');
+
+// Inputs DOM elements from form
 const nameInput = document.querySelector('#name');
 const familyNameInput = document.querySelector('#familyNames');
-const nameInput = document.querySelector('#name');
-const nameInput = document.querySelector('#name');
 
 
 mentorsForm.addEventListener('submit', (event)=>{
